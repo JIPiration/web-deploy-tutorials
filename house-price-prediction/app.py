@@ -7,12 +7,12 @@ from pickle import load
 app=Flask(__name__)
 Swagger(app)
 
-loaded_model = load(open('best_model.pickle', 'rb'))
-poly = load(open('polynomial_feature.pickle', 'rb'))
-sc = load(open('scaler.pickle', 'rb'))
+loaded_model = load(open('best_model.pkl', 'rb'))
+poly = load(open('poly.pkl', 'rb'))
+sc = load(open('scalar.pkl', 'rb'))
 
 
-@app.route('/', method=['Get'])
+@app.route('/', method=["Get"])
 def predict():
 
     """House Price Prediction
