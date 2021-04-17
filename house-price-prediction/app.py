@@ -12,7 +12,7 @@ poly = load(open('poly.pkl', 'rb'))
 sc = load(open('scalar.pkl', 'rb'))
 
 
-@app.route('/', method=["Get"])
+@app.route('/', methods=['GET'])
 def predict():
 
     """House Price Prediction
