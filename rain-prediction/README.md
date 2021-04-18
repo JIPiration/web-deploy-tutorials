@@ -1,11 +1,2 @@
 # Rain Prediction
 
-
-**Data**
-
-
-
-**Model**
-
-
-
