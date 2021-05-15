@@ -1,5 +1,5 @@
 # Web Deployment Tutorials
-> This repository collected to 'Incubator' Slack.
+> This repository connected to 'Incubator' Slack.
 
 
 ***Tutorials***
